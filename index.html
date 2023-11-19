@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="poster-cont">
+      <div class="poster">
+        <img src="./poster.jpg" alt="">
+        <h1 class="yourText" id="textMob">Your Text</h1>
+      </div>
+    </div>
+<form action="#" id="myForm" method="post">
+  <div class="text-input">
+    <h1>Enter Your text</h1>
+  <p style="margin-bottom: 15px;">You can also <a href="#downloadLogo" class="link"> upload an image</a></p>
+  <input type="text" class="enter-text input req" name="text">
+  </div>
+  <h1>Choose font</h1>
+  <div class="font-select">
+    <li style="font-family: 'Grayscale';" data-font="Grayscale">
+      <input type="radio" name="selected_font" value="Grayscale" class="input-font">
+      Grayscale</li>
+    <li style="font-family: 'Ammanda';" data-font="Ammanda">
+      <input type="radio" name="selected_font" value="Ammanda" class="input-font">
+      Ammanda</li>
+    <li style="font-family: 'Brave';" data-font="Brave">
+      <input type="radio" name="selected_font" value="Brave" class="input-font">
+      Brave</li>
+    <li style="font-family: 'BsSignature';" data-font="BsSignature">
+      <input type="radio" name="selected_font" value="BsSignature" class="input-font">
+      BsSignature</li>
+    <li style="font-family: 'Capsuula';" data-font="Capsuula">
+      <input type="radio" name="selected_font" value="Capsuula" class="input-font">
+      Capsuula</li>
+      <!--  -->
+    <li style="font-family: 'Collegiate';" data-font="Collegiate">
+      <input type="radio" name="selected_font" value="Collegiate" class="input-font">
+      Collegiate</li>
+    <li style="font-family: 'DancingDog';" data-font="DancingDog">
+      <input type="radio" name="selected_font" value="DancingDog" class="input-font">
+      DancingDog</li>
+    <li style="font-family: 'DolceVita';" data-font="DolceVita">
+      <input type="radio" name="selected_font" value="DolceVita" class="input-font">
+      DolceVita</li>
+    <li style="font-family: 'Gruenewald';" data-font="Gruenewald">
+      <input type="radio" name="selected_font" value="Gruenewald" class="input-font">
+      Gruenewald</li>
+    <li style="font-family: 'Harmony';" data-font="Harmony">
+      <input type="radio" name="selected_font" value="Harmony" class="input-font">
+      Harmony</li>
+    <li style="font-family: 'Hesterica';" data-font="Hesterica">
+      <input type="radio" name="selected_font" value="Hesterica" class="input-font">
+      Hesterica</li>
+    <li style="font-family: 'JustAnother';" data-font="JustAnother">
+      <input type="radio" name="selected_font" value="JustAnother" class="input-font">
+      Another</li>
+    <li style="font-family: 'KGLego';" data-font="KGLego">
+      <input type="radio" name="selected_font" value="KGLego" class="input-font">
+      KGLego</li>
+    <li style="font-family: 'Kiona';" data-font="Kiona">
+      <input type="radio" name="selected_font" value="Kiona" class="input-font">
+      Kiona</li>
+    <li style="font-family: 'Lovely';" data-font="Lovely">
+      <input type="radio" name="selected_font" value="Lovely" class="input-font">
+      Lovely</li>
+    <li style="font-family: 'Glow';" data-font="Glow">
+      <input type="radio" name="selected_font" value="Glow" class="input-font">
+      Glow</li>
+    <li style="font-family: 'HandTypeWritter';" data-font="HandTypeWritter">
+      <input type="radio" name="selected_font" value="HandTypeWritter" class="input-font">
+      Writter</li>
+    <li style="font-family: 'Nixie';" data-font="Nixie">
+      <input type="radio" name="selected_font" value="Nixie" class="input-font">
+      Nixie</li>
+    <li style="font-family: 'Ouvality';" data-font="Ouvality">
+      <input type="radio" name="selected_font" value="Ouvality" class="input-font">
+      Ouvality</li>
+    <li style="font-family: 'Pacifico';" data-font="Pacifico">
+      <input type="radio" name="selected_font" value="Pacifico" class="input-font">
+      Pacifico</li>
+    <li style="font-family: 'PaperDaisy';" data-font="PaperDaisy">
+      <input type="radio" name="selected_font" value="PaperDaisy" class="input-font">
+      PaperDaisy</li>
+    <li style="font-family: 'Quinzey';" data-font="Quinzey">
+      <input type="radio" name="selected_font" value="Quinzey" class="input-font">
+      Quinzey</li>
+    <li style="font-family: 'Velvet';" data-font="Velvet">
+      <input type="radio" name="selected_font" value="Velvet" class="input-font">
+      Velvet</li>
+    <li style="font-family: 'Scifieo';" data-font="Scifieo">
+      <input type="radio" name="selected_font" value="Scifieo" class="input-font">
+      Scifieo</li>
+    <li style="font-family: 'Roboto';" data-font="Roboto">
+      <input type="radio" name="selected_font" value="Roboto" class="input-font">
+      Roboto</li>
+    <li style="font-family: 'Quest';" data-font="Quest">
+      <input type="radio" name="selected_font" value="Quest" class="input-font">
+      Quest</li>
+    <li style="font-family: 'Rocket';" data-font="Rocket">
+      <input type="radio" name="selected_font" value="Rocket" class="input-font">
+      Rocket</li>
+    <li style="font-family: 'Philosopher';" data-font="Philosopher">
+      <input type="radio" name="selected_font" value="Philosopher" class="input-font">
+      Philosopher</li>
+    <li style="font-family: 'Roketto';" data-font="Roketto">
+      <input type="radio" name="selected_font" value="Roketto" class="input-font">
+      Roketto</li>
+    <li style="font-family: 'SciFi';" data-font="SciFi">
+      <input type="radio" name="selected_font" value="SciFi" class="input-font">
+      SciFi</li>
+    <li style="font-family: 'Vintage';" data-font="Vintage">
+      <input type="radio" name="selected_font" value="Vintage" class="input-font">
+      Vintage</li>
+
+    <!--  -->
+<li style="font-family: 'ClubMusic';" data-font="ClubMusic">
+  <input type="radio" name="selected_font" value="ClubMusic" class="input-font">
+  ClubMusic</li>
+<li style="font-family: 'Pop';" data-font="Pop">
+  <input type="radio" name="selected_font" value="60sPop" class="input-font">
+  60sPop</li>
+<li style="font-family: 'Agatta';" data-font="Agatta">
+  <input type="radio" name="selected_font" value="Agatta" class="input-font">
+  Agatta</li>
+<li style="font-family: 'Brushwork';" data-font="Brushwork">
+  <input type="radio" name="selected_font" value="Brushwork" class="input-font">
+  Brushwork</li>
+<li style="font-family: 'CarryYou';" data-font="CarryYou">
+  <input type="radio" name="selected_font" value="CarryYou" class="input-font">
+  CarryYou</li>
+<li style="font-family: 'Enfan';" data-font="Enfan">
+  <input type="radio" name="selected_font" value="Enfan" class="input-font">
+  Enfan</li>
+<li style="font-family: 'Korian';" data-font="Korian">
+  <input type="radio" name="selected_font" value="Korian" class="input-font">
+  Korian</li>
+<li style="font-family: 'Lionelo'; font-size: 1.8rem;" data-font="Lionelo">
+  <input type="radio" name="selected_font" value="Lionelo" class="input-font">
+  Lionelo</li>
+<li style="font-family: 'Monoton';" data-font="Monoton">
+  <input type="radio" name="selected_font" value="Monoton" class="input-font">
+  Monoton</li>
+<li style="font-family: 'Rebelion';" data-font="Rebelion">
+  <input type="radio" name="selected_font" value="Rebelion" class="input-font">
+  Rebelion</li>
+<li style="font-family: 'Sunset';" data-font="Sunset">
+  <input type="radio" name="selected_font" value="Sunset" class="input-font">
+  Sunset</li>
+<li style="font-family: 'NeonBines'; font-size: 1.1rem;" data-font="NeonBines">
+  <input type="radio" name="selected_font" value="NeonBines" class="input-font">
+  NeonBines</li>
+  </div>
+  <h1>Choose color</h1>
+  <div class="color-select">
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="WarmWhite" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#fffdcf" data-shadow-color=" rgb(255, 253, 207) 0px 0px 8px, rgb(255, 253, 207) 0px 0px 12px, rgb(255, 253, 207) 0px 0px 16px, rgb(255, 253, 207) 0px 0px 22px, rgb(255, 253, 207) 0px 0px 30px"  style="color: rgb(255, 253, 207); text-shadow: none;"></p>
+      <p>Warm White</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="White" class="input-color">
+      <p class="fa-regular fa-lightbulb " data-color="#e1e3e6" data-shadow-color="rgb(225, 227, 230) 0px 0px 8px, rgb(225, 227, 230) 0px 0px 12px, rgb(225, 227, 230) 0px 0px 16px, rgb(225, 227, 230) 0px 0px 22px, rgb(225, 227, 230) 0px 0px 30px" style="color: rgb(225, 227, 230); text-shadow: none;"></p>
+      <p>White</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="LemonYellow" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#fff97c" data-shadow-color="rgb(255, 249, 124) 0px 0px 8px, rgb(255, 249, 124) 0px 0px 12px, rgb(255, 249, 124) 0px 0px 16px, rgb(255, 249, 124) 0px 0px 22px, rgb(255, 249, 124) 0px 0px 30px" style="color: rgb(255, 249, 124); text-shadow: none;"></p>
+      <p>Lemon Yellow</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="GoldenYellow" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#ffd62e" data-shadow-color="rgb(255, 214, 46) 0px 0px 8px, rgb(255, 214, 46) 0px 0px 12px, rgb(255, 214, 46) 0px 0px 16px, rgb(255, 214, 46) 0px 0px 22px, rgb(255, 214, 46) 0px 0px 30px"  style="color: rgb(255, 214, 46); text-shadow: none;"></p>
+      <p>Golden Yellow</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="Orange" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#ff8d02" data-shadow-color="rgb(255, 141, 2) 0px 0px 8px, rgb(255, 141, 2) 0px 0px 12px, rgb(255, 141, 2) 0px 0px 16px, rgb(255, 141, 2) 0px 0px 22px, rgb(255, 141, 2) 0px 0px 30px"  style="color: rgb(255, 141, 2); text-shadow: none;"></p>
+      <p>Orange</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="LightRed" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#ff7575" data-shadow-color="rgb(255, 117, 117) 0px 0px 8px, rgb(255, 117, 117) 0px 0px 12px, rgb(255, 117, 117) 0px 0px 16px, rgb(255, 117, 117) 0px 0px 22px, rgb(255, 117, 117) 0px 0px 30px" style="color: rgb(255, 117, 117); text-shadow: none;"></p>
+      <p>Light Red</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="Red" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#ff2a4d" data-shadow-color="rgb(255, 42, 77) 0px 0px 8px, rgb(255, 42, 77) 0px 0px 12px, rgb(255, 42, 77) 0px 0px 16px, rgb(255, 42, 77) 0px 0px 22px, rgb(255, 42, 77) 0px 0px 30px" style="color: rgb(255, 42, 77); text-shadow: none;"></p>
+      <p>Red</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="Pink" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#ff90ff" data-shadow-color="rgb(255, 144, 255) 0px 0px 8px, rgb(255, 144, 255) 0px 0px 12px, rgb(255, 144, 255) 0px 0px 16px, rgb(255, 144, 255) 0px 0px 22px, rgb(255, 144, 255) 0px 0px 30px" style="color: rgb(255, 144, 255); text-shadow: none;"></p>
+      <p>Pink</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="CandyFloss" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#eaa4ff" data-shadow-color="rgb(255, 255, 255) 0px 0px 1px, rgb(255, 255, 255) 0px 0px 2px,rgb(234, 164, 255) 0px 0px 8px, rgb(234, 164, 255) 0px 0px 12px, rgb(234, 164, 255) 0px 0px 16px, rgb(234, 164, 255) 0px 0px 22px, rgb(234, 164, 255) 0px 0px 30px" style="color: rgb(234, 164, 255); text-shadow: none;"></p>
+      <p>Candy Floss</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="DeepPink" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#ff5ce8" data-shadow-color="rgb(255, 92, 232) 0px 0px 8px, rgb(255, 92, 232) 0px 0px 12px, rgb(255, 92, 232) 0px 0px 16px, rgb(255, 92, 232) 0px 0px 22px, rgb(255, 92, 232) 0px 0px 30px" style="color: rgb(255, 92, 232); text-shadow: none;"></p>
+      <p>Deep Pink</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="Purple" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#8c59ff" data-shadow-color="rgb(140, 89, 255) 0px 0px 8px, rgb(140, 89, 255) 0px 0px 12px, rgb(140, 89, 255) 0px 0px 16px, rgb(140, 89, 255) 0px 0px 22px, rgb(140, 89, 255) 0px 0px 30px" style="color: rgb(140, 89, 255); text-shadow: none;"></p>
+      <p>Purple</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="DeepBlue" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#0274fc" data-shadow-color="rgb(2, 116, 252) 0px 0px 8px, rgb(2, 116, 252) 0px 0px 12px, rgb(2, 116, 252) 0px 0px 16px, rgb(2, 116, 252) 0px 0px 22px, rgb(2, 116, 252) 0px 0px 30px" style="color: rgb(2, 116, 252); text-shadow: none;"></p>
+      <p>Deep Blue</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="ElectricBlue" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#63aaff" data-shadow-color="rgb(99, 170, 255) 0px 0px 8px, rgb(99, 170, 255) 0px 0px 12px, rgb(99, 170, 255) 0px 0px 16px, rgb(99, 170, 255) 0px 0px 22px, rgb(99, 170, 255) 0px 0px 30px"  style="color: rgb(99, 170, 255); text-shadow: none;"></p>
+      <p>Electric Blue</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="IceBlue" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#90dcff" data-shadow-color="rgb(144, 220, 255) 0px 0px 8px, rgb(144, 220, 255) 0px 0px 12px, rgb(144, 220, 255) 0px 0px 16px, rgb(144, 220, 255) 0px 0px 22px, rgb(144, 220, 255) 0px 0px 30px" style="color: rgb(144, 220, 255); text-shadow: none;"></p>
+      <p>Ice Blue</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="TropicalBlue" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#24b7de" data-shadow-color="rgb(36, 183, 222) 0px 0px 8px, rgb(36, 183, 222) 0px 0px 12px, rgb(36, 183, 222) 0px 0px 16px, rgb(36, 183, 222) 0px 0px 22px, rgb(36, 183, 222) 0px 0px 30px" style="color: rgb(36, 183, 222); text-shadow: none;"></p>
+      <p>Tropical Blue</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="Mint" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#80ffd9" data-shadow-color="rgb(128, 255, 217) 0px 0px 8px, rgb(128, 255, 217) 0px 0px 12px, rgb(128, 255, 217) 0px 0px 16px, rgb(128, 255, 217) 0px 0px 22px, rgb(128, 255, 217) 0px 0px 30px" style="color: rgb(128, 255, 217); text-shadow: none;"></p>
+      <p>Mint</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="Green" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#85ffaa" data-shadow-color="rgb(133, 255, 170) 0px 0px 8px, rgb(133, 255, 170) 0px 0px 12px, rgb(133, 255, 170) 0px 0px 16px, rgb(133, 255, 170) 0px 0px 22px, rgb(133, 255, 170) 0px 0px 30px" style="color: rgb(133, 255, 170); text-shadow: none;"></p>
+      <p>Green</p>
+    </li>
+    <li class="color-select-li">
+      <input type="radio" name="selected_color" value="DeepGreen" class="input-color">
+      <p class="fa-regular fa-lightbulb" data-color="#0bd748" data-shadow-color="rgb(11, 215, 72) 0px 0px 8px, rgb(11, 215, 72) 0px 0px 12px, rgb(11, 215, 72) 0px 0px 16px, rgb(11, 215, 72) 0px 0px 22px, rgb(11, 215, 72) 0px 0px 30px" style="color: rgb(11, 215, 72); text-shadow: none;"></p>
+      <p>Deep Green</p>
+    </li>
+  </div>
+  <h1>Choose size</h1>
+  <div class="size-select">
+    <div class="size-row">
+      <input type="text" name="length" id="" class="input size-select-input" placeholder="L:">
+    <label for="length">Max Length: 85''inches</label>
+    </div>
+    <div class="size-row">
+      <input type="text" name="height" id="" class="input size-select-input" placeholder="H:">
+    <label for="height">Max Height: 45''inches</label>
+    </div>
+  </div>
+  <h1>Choose backboard</h1>
+  <div class="backboard-select">
+    <li class="backboard-li">
+      <i class="fa-solid fa-check "></i>
+      <input type="radio" name="backboard" value="CutToLetter" class="backboard-input">
+      <img src="./img/cut-to-letter.png" alt="">
+      <p>Cut to Letter</p>
+    </li>
+    <li class="backboard-li">
+      <i class="fa-solid fa-check "></i>
+      <input type="radio" name="backboard" value="CutToRectangle" class="backboard-input">
+      <img src="./img/cut-to-rect.png" alt="">
+      <p>Cut to Rectangle</p>
+    </li>
+    <li class="backboard-li">
+      <i class="fa-solid fa-check "></i>
+      <input type="radio" name="backboard" value="CutToShape" class="backboard-input">
+      <img src="./img/cut-to-shape.png" alt="">
+      <p>Cut to Shape</p>
+    </li>
+    <li class="backboard-li">
+      <i class="fa-solid fa-check "></i>
+      <input type="radio" name="backboard" value="CutToElips" class="backboard-input">
+      <img src="./img/cut-to-elips.png" alt="">
+      <p>Cut to Elips</p>
+    </li>
+  </div>
+  <div class="indoor-select">
+    <div class="idor-bl" style="position: relative;">
+      <input type="radio" id="indoor" name="where" value="indoor" class="indoor-select-input ">
+    <span class="custom-radio"></span>
+    </div>
+    <label for="indoor">indoor</label>
+    <div class="indor-bl" style="position: relative;">
+      <input type="radio" id="outdoor" name="where" value="outdoor" class="indoor-select-input ">
+    <span class="custom-radio"></span>
+    </div>
+    <label for="outdoor">outdoor</label>
+  </div>
+  <h1 id="downloadLogo">upload your own design/picture</h1>
+  <div class="file-download">
+    <div class="file-item">
+      <input type="file" name="image" id="formImage" accept=".jpg, .png, .gif" class="file-input">
+      <h3>upload</h3>
+      </div>
+      <div class="file-preview" id="formPreview"></div>
+  </div>
+  <h1>Leave your details</h1>
+  <input type="text" placeholder="Your Email:" class="input-email input email req" name="email">
+  <input type="text" class="notes input" placeholder="Your Notes:" name="notes">
+  <button class="send" type="submit">Send</button>
+</form>
+
+<!--  -->
+<form action="#" id="myForm-mob" method="post" class="mob-form">
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+    <a class="custom-button-next"><i class="fa-regular fa-circle-right"></i></a>
+        <div class="text-input">
+          <h1>Enter Your text</h1>
+        <p style="margin-bottom: 15px;">You can also <a class="link"> upload an image</a></p>
+        <input type="text" class="enter-text enter-text-mob inpu req-mob" name="textMob">
+        <h1 id="uploadLogo">upload your own design/picture</h1>
+        <div class="file-download">
+          <div class="file-itemMob">
+            <input type="file" name="imageMob" id="formImageMob" accept=".jpg, .png, .gif" class="file-inputMob">
+            <h3>upload</h3>
+            </div>
+            <div class="file-previewMob" id="formPreviewMob"></div></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <a class="custom-button-prev"><i class="fa-regular fa-circle-left"></i></a>
+    <a class="custom-button-next"><i class="fa-regular fa-circle-right"></i></a>
+        <h1>Choose font</h1>
+        <div class="font-select">
+          <li style="font-family: 'Grayscale';" data-font="Grayscale">
+            <input type="radio" name="selected_fontMob" value="Grayscale" class="input-font">
+            Grayscale</li>
+          <li style="font-family: 'Ammanda';" data-font="Ammanda">
+            <input type="radio" name="selected_fontMob" value="Ammanda" class="input-font">
+            Ammanda</li>
+          <li style="font-family: 'Brave';" data-font="Brave">
+            <input type="radio" name="selected_fontMob" value="Brave" class="input-font">
+            Brave</li>
+          <li style="font-family: 'BsSignature';" data-font="BsSignature">
+            <input type="radio" name="selected_fontMob" value="BsSignature" class="input-font">
+            BsSignature</li>
+          <li style="font-family: 'Capsuula';" data-font="Capsuula">
+            <input type="radio" name="selected_fontMob" value="Capsuula" class="input-font">
+            Capsuula</li>
+          <li style="font-family: 'Collegiate';" data-font="Collegiate">
+            <input type="radio" name="selected_fontMob" value="Collegiate" class="input-font">
+            Collegiate</li>
+          <li style="font-family: 'DancingDog';" data-font="DancingDog">
+            <input type="radio" name="selected_fontMob" value="DancingDog" class="input-font">
+            DancingDog</li>
+          <li style="font-family: 'DolceVita';" data-font="DolceVita">
+            <input type="radio" name="selected_fontMob" value="DolceVita" class="input-font">
+            DolceVita</li>
+          <li style="font-family: 'Gruenewald';" data-font="Gruenewald">
+            <input type="radio" name="selected_fontMob" value="Gruenewald" class="input-font">
+            Gruenewald</li>
+          <li style="font-family: 'Harmony';" data-font="Harmony">
+            <input type="radio" name="selected_fontMob" value="Harmony" class="input-font">
+            Harmony</li>
+          <li style="font-family: 'Hesterica';" data-font="Hesterica">
+            <input type="radio" name="selected_fontMob" value="Hesterica" class="input-font">
+            Hesterica</li>
+          <li style="font-family: 'JustAnother';" data-font="JustAnother">
+            <input type="radio" name="selected_fontMob" value="JustAnother" class="input-font">
+            Another</li>
+          <li style="font-family: 'KGLego';" data-font="KGLego">
+            <input type="radio" name="selected_fontMob" value="KGLego" class="input-font">
+            KGLego</li>
+          <li style="font-family: 'Kiona';" data-font="Kiona">
+            <input type="radio" name="selected_fontMob" value="Kiona" class="input-font">
+            Kiona</li>
+          <li style="font-family: 'Lovely';" data-font="Lovely">
+            <input type="radio" name="selected_fontMob" value="Lovely" class="input-font">
+            Lovely</li>
+          <li style="font-family: 'Glow';" data-font="Glow">
+            <input type="radio" name="selected_fontMob" value="Glow" class="input-font">
+            Glow</li>
+          <li style="font-family: 'HandTypeWritter';" data-font="HandTypeWritter">
+            <input type="radio" name="selected_fontMob" value="HandTypeWritter" class="input-font">
+            Writter</li>
+          <li style="font-family: 'Nixie';" data-font="Nixie">
+            <input type="radio" name="selected_fontMob" value="Nixie" class="input-font">
+            Nixie</li>
+          <li style="font-family: 'Ouvality';" data-font="Ouvality">
+            <input type="radio" name="selected_fontMob" value="Ouvality" class="input-font">
+            Ouvality</li>
+          <li style="font-family: 'Pacifico';" data-font="Pacifico">
+            <input type="radio" name="selected_fontMob" value="Pacifico" class="input-font">
+            Pacifico</li>
+          <li style="font-family: 'PaperDaisy';" data-font="PaperDaisy">
+            <input type="radio" name="selected_fontMob" value="PaperDaisy" class="input-font">
+            PaperDaisy</li>
+          <li style="font-family: 'Quinzey';" data-font="Quinzey">
+            <input type="radio" name="selected_fontMob" value="Quinzey" class="input-font">
+            Quinzey</li>
+          <li style="font-family: 'Velvet';" data-font="Velvet">
+            <input type="radio" name="selected_fontMob" value="Velvet" class="input-font">
+            Velvet</li>
+          <li style="font-family: 'Scifieo';" data-font="Scifieo">
+            <input type="radio" name="selected_fontMob" value="Scifieo" class="input-font">
+            Scifieo</li>
+          <li style="font-family: 'Roboto';" data-font="Roboto">
+            <input type="radio" name="selected_fontMob" value="Roboto" class="input-font">
+            Roboto</li>
+          <li style="font-family: 'Quest';" data-font="Quest">
+            <input type="radio" name="selected_fontMob" value="Quest" class="input-font">
+            Quest</li>
+          <li style="font-family: 'Rocket';" data-font="Rocket">
+            <input type="radio" name="selected_fontMob" value="Rocket" class="input-font">
+            Rocket</li>
+          <li style="font-family: 'Philosopher';" data-font="Philosopher">
+            <input type="radio" name="selected_fontMob" value="Philosopher" class="input-font">
+            Philosopher</li>
+          <li style="font-family: 'Roketto';" data-font="Roketto">
+            <input type="radio" name="selected_fontMob" value="Roketto" class="input-font">
+            Roketto</li>
+          <li style="font-family: 'SciFi';" data-font="SciFi">
+            <input type="radio" name="selected_fontMob" value="SciFi" class="input-font">
+            SciFi</li>
+          <li style="font-family: 'Vintage';" data-font="Vintage">
+            <input type="radio" name="selected_fontMob" value="Vintage" class="input-font">
+            Vintage</li>
+      <li style="font-family: 'ClubMusic';" data-font="ClubMusic">
+        <input type="radio" name="selected_fontMob" value="ClubMusic" class="input-font">
+        ClubMusic</li>
+      <li style="font-family: 'Pop';" data-font="Pop">
+        <input type="radio" name="selected_fontMob" value="60sPop" class="input-font">
+        60sPop</li>
+      <li style="font-family: 'Agatta';" data-font="Agatta">
+        <input type="radio" name="selected_fontMob" value="Agatta" class="input-font">
+        Agatta</li>
+      <li style="font-family: 'Brushwork';" data-font="Brushwork">
+        <input type="radio" name="selected_fontMob" value="Brushwork" class="input-font">
+        Brushwork</li>
+      <li style="font-family: 'CarryYou';" data-font="CarryYou">
+        <input type="radio" name="selected_fontMob" value="CarryYou" class="input-font">
+        CarryYou</li>
+      <li style="font-family: 'Enfan';" data-font="Enfan">
+        <input type="radio" name="selected_fontMob" value="Enfan" class="input-font">
+        Enfan</li>
+      <li style="font-family: 'Korian';" data-font="Korian">
+        <input type="radio" name="selected_fontMob" value="Korian" class="input-font">
+        Korian</li>
+      <li style="font-family: 'Lionelo'; font-size: 1.8rem;" data-font="Lionelo">
+        <input type="radio" name="selected_fontMob" value="Lionelo" class="input-font">
+        Lionelo</li>
+      <li style="font-family: 'Monoton';" data-font="Monoton">
+        <input type="radio" name="selected_fontMob" value="Monoton" class="input-font">
+        Monoton</li>
+      <li style="font-family: 'Rebelion';" data-font="Rebelion">
+        <input type="radio" name="selected_fontMob" value="Rebelion" class="input-font">
+        Rebelion</li>
+      <li style="font-family: 'Sunset';" data-font="Sunset">
+        <input type="radio" name="selected_fontMob" value="Sunset" class="input-font">
+        Sunset</li>
+      <li style="font-family: 'NeonBines'; font-size: 1.1rem;" data-font="NeonBines">
+        <input type="radio" name="selected_fontMob" value="NeonBines" class="input-font">
+        NeonBines</li>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <a class="custom-button-prev"><i class="fa-regular fa-circle-left"></i></a>
+    <a class="custom-button-next"><i class="fa-regular fa-circle-right"></i></a>
+        <h1>Choose color</h1>
+        <div class="color-select">
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="WarmWhite" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#fffdcf" data-shadow-color=" rgb(255, 253, 207) 0px 0px 8px, rgb(255, 253, 207) 0px 0px 12px, rgb(255, 253, 207) 0px 0px 16px, rgb(255, 253, 207) 0px 0px 22px, rgb(255, 253, 207) 0px 0px 30px"  style="color: rgb(255, 253, 207); text-shadow: none;"></p>
+            <p>Warm White</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="White" class="input-color">
+            <p class="fa-regular fa-lightbulb " data-color="#e1e3e6" data-shadow-color="rgb(225, 227, 230) 0px 0px 8px, rgb(225, 227, 230) 0px 0px 12px, rgb(225, 227, 230) 0px 0px 16px, rgb(225, 227, 230) 0px 0px 22px, rgb(225, 227, 230) 0px 0px 30px" style="color: rgb(225, 227, 230); text-shadow: none;"></p>
+            <p>White</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="LemonYellow" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#fff97c" data-shadow-color="rgb(255, 249, 124) 0px 0px 8px, rgb(255, 249, 124) 0px 0px 12px, rgb(255, 249, 124) 0px 0px 16px, rgb(255, 249, 124) 0px 0px 22px, rgb(255, 249, 124) 0px 0px 30px" style="color: rgb(255, 249, 124); text-shadow: none;"></p>
+            <p>Lemon Yellow</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="GoldenYellow" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#ffd62e" data-shadow-color="rgb(255, 214, 46) 0px 0px 8px, rgb(255, 214, 46) 0px 0px 12px, rgb(255, 214, 46) 0px 0px 16px, rgb(255, 214, 46) 0px 0px 22px, rgb(255, 214, 46) 0px 0px 30px"  style="color: rgb(255, 214, 46); text-shadow: none;"></p>
+            <p>Golden Yellow</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="Orange" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#ff8d02" data-shadow-color="rgb(255, 141, 2) 0px 0px 8px, rgb(255, 141, 2) 0px 0px 12px, rgb(255, 141, 2) 0px 0px 16px, rgb(255, 141, 2) 0px 0px 22px, rgb(255, 141, 2) 0px 0px 30px"  style="color: rgb(255, 141, 2); text-shadow: none;"></p>
+            <p>Orange</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="LightRed" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#ff7575" data-shadow-color="rgb(255, 117, 117) 0px 0px 8px, rgb(255, 117, 117) 0px 0px 12px, rgb(255, 117, 117) 0px 0px 16px, rgb(255, 117, 117) 0px 0px 22px, rgb(255, 117, 117) 0px 0px 30px" style="color: rgb(255, 117, 117); text-shadow: none;"></p>
+            <p>Light Red</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="Red" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#ff2a4d" data-shadow-color="rgb(255, 42, 77) 0px 0px 8px, rgb(255, 42, 77) 0px 0px 12px, rgb(255, 42, 77) 0px 0px 16px, rgb(255, 42, 77) 0px 0px 22px, rgb(255, 42, 77) 0px 0px 30px" style="color: rgb(255, 42, 77); text-shadow: none;"></p>
+            <p>Red</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="Pink" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#ff90ff" data-shadow-color="rgb(255, 144, 255) 0px 0px 8px, rgb(255, 144, 255) 0px 0px 12px, rgb(255, 144, 255) 0px 0px 16px, rgb(255, 144, 255) 0px 0px 22px, rgb(255, 144, 255) 0px 0px 30px" style="color: rgb(255, 144, 255); text-shadow: none;"></p>
+            <p>Pink</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="CandyFloss" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#eaa4ff" data-shadow-color="rgb(255, 255, 255) 0px 0px 1px, rgb(255, 255, 255) 0px 0px 2px,rgb(234, 164, 255) 0px 0px 8px, rgb(234, 164, 255) 0px 0px 12px, rgb(234, 164, 255) 0px 0px 16px, rgb(234, 164, 255) 0px 0px 22px, rgb(234, 164, 255) 0px 0px 30px" style="color: rgb(234, 164, 255); text-shadow: none;"></p>
+            <p>Candy Floss</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="DeepPink" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#ff5ce8" data-shadow-color="rgb(255, 92, 232) 0px 0px 8px, rgb(255, 92, 232) 0px 0px 12px, rgb(255, 92, 232) 0px 0px 16px, rgb(255, 92, 232) 0px 0px 22px, rgb(255, 92, 232) 0px 0px 30px" style="color: rgb(255, 92, 232); text-shadow: none;"></p>
+            <p>Deep Pink</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="Purple" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#8c59ff" data-shadow-color="rgb(140, 89, 255) 0px 0px 8px, rgb(140, 89, 255) 0px 0px 12px, rgb(140, 89, 255) 0px 0px 16px, rgb(140, 89, 255) 0px 0px 22px, rgb(140, 89, 255) 0px 0px 30px" style="color: rgb(140, 89, 255); text-shadow: none;"></p>
+            <p>Purple</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="DeepBlue" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#0274fc" data-shadow-color="rgb(2, 116, 252) 0px 0px 8px, rgb(2, 116, 252) 0px 0px 12px, rgb(2, 116, 252) 0px 0px 16px, rgb(2, 116, 252) 0px 0px 22px, rgb(2, 116, 252) 0px 0px 30px" style="color: rgb(2, 116, 252); text-shadow: none;"></p>
+            <p>Deep Blue</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="ElectricBlue" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#63aaff" data-shadow-color="rgb(99, 170, 255) 0px 0px 8px, rgb(99, 170, 255) 0px 0px 12px, rgb(99, 170, 255) 0px 0px 16px, rgb(99, 170, 255) 0px 0px 22px, rgb(99, 170, 255) 0px 0px 30px"  style="color: rgb(99, 170, 255); text-shadow: none;"></p>
+            <p>Electric Blue</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="IceBlue" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#90dcff" data-shadow-color="rgb(144, 220, 255) 0px 0px 8px, rgb(144, 220, 255) 0px 0px 12px, rgb(144, 220, 255) 0px 0px 16px, rgb(144, 220, 255) 0px 0px 22px, rgb(144, 220, 255) 0px 0px 30px" style="color: rgb(144, 220, 255); text-shadow: none;"></p>
+            <p>Ice Blue</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="TropicalBlue" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#24b7de" data-shadow-color="rgb(36, 183, 222) 0px 0px 8px, rgb(36, 183, 222) 0px 0px 12px, rgb(36, 183, 222) 0px 0px 16px, rgb(36, 183, 222) 0px 0px 22px, rgb(36, 183, 222) 0px 0px 30px" style="color: rgb(36, 183, 222); text-shadow: none;"></p>
+            <p>Tropical Blue</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="Mint" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#80ffd9" data-shadow-color="rgb(128, 255, 217) 0px 0px 8px, rgb(128, 255, 217) 0px 0px 12px, rgb(128, 255, 217) 0px 0px 16px, rgb(128, 255, 217) 0px 0px 22px, rgb(128, 255, 217) 0px 0px 30px" style="color: rgb(128, 255, 217); text-shadow: none;"></p>
+            <p>Mint</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="Green" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#85ffaa" data-shadow-color="rgb(133, 255, 170) 0px 0px 8px, rgb(133, 255, 170) 0px 0px 12px, rgb(133, 255, 170) 0px 0px 16px, rgb(133, 255, 170) 0px 0px 22px, rgb(133, 255, 170) 0px 0px 30px" style="color: rgb(133, 255, 170); text-shadow: none;"></p>
+            <p>Green</p>
+          </li>
+          <li class="color-select-li">
+            <input type="radio" name="selected_colorMob" value="DeepGreen" class="input-color">
+            <p class="fa-regular fa-lightbulb" data-color="#0bd748" data-shadow-color="rgb(11, 215, 72) 0px 0px 8px, rgb(11, 215, 72) 0px 0px 12px, rgb(11, 215, 72) 0px 0px 16px, rgb(11, 215, 72) 0px 0px 22px, rgb(11, 215, 72) 0px 0px 30px" style="color: rgb(11, 215, 72); text-shadow: none;"></p>
+            <p>Deep Green</p>
+          </li>
+          </div></div>
+        <div class="swiper-slide">
+          <a class="custom-button-prev"><i class="fa-regular fa-circle-left"></i></a>
+    <a class="custom-button-next"><i class="fa-regular fa-circle-right"></i></a>
+          <h1>Choose size</h1>
+          <div class="size-select">
+            <div class="size-row">
+              <input type="text" name="lengthMob" id="" class="input size-select-input" placeholder="L:">
+            <label for="length">Max Length: 85''inches</label>
+            </div>
+            <div class="size-row">
+              <input type="text" name="heightMob" id="" class="input size-select-input" placeholder="H:">
+            <label for="height">Max Height: 45''inches</label>
+            </div>
+          </div>
+          <div class="indoor-select">
+            <div class="indoor-bl-mob" style="position: relative;">
+            <input type="radio" id="indoorM" name="whereMob" value="indoor" class="indoor-select-input">
+            <span class="custom-radio"></span>
+            </div>
+            <label for="indoorM">indoor</label>
+            <div class="indoor-bl-mob" style="position: relative;">
+              <input type="radio" id="outdoorM" name="whereMob" value="outdoor" class="indoor-select-input">
+              <span class="custom-radio"></span>
+            </div>
+            <label for="outdoorM">outdoor</label>
+          </div>
+          
+          <!--  -->
+      </div>
+      <div class="swiper-slide">
+        <a class="custom-button-prev"><i class="fa-regular fa-circle-left"></i></a>
+    <a class="custom-button-next"><i class="fa-regular fa-circle-right"></i></a>
+        <h1>Choose backboard</h1>
+        <div class="backboard-select">
+          <li class="backboard-li">
+            <i class="fa-solid fa-check "></i>
+            <input type="radio" name="backboardMob" value="CutToLetter" class="backboard-input">
+            <img src="./img/cut-to-letter.png" alt="">
+            <p>Cut to Letter</p>
+          </li>
+          <li class="backboard-li">
+            <i class="fa-solid fa-check "></i>
+            <input type="radio" name="backboardMob" value="CutToRectangle" class="backboard-input">
+            <img src="./img/cut-to-rect.png" alt="">
+            <p>Cut to Rectangle</p>
+          </li>
+          <li class="backboard-li">
+            <i class="fa-solid fa-check "></i>
+            <input type="radio" name="backboardMob" value="CutToShape" class="backboard-input">
+            <img src="./img/cut-to-shape.png" alt="">
+            <p>Cut to Shape</p>
+          </li>
+          <li class="backboard-li">
+            <i class="fa-solid fa-check "></i>
+            <input type="radio" name="backboardMob" value="CutToElips" class="backboard-input">
+            <img src="./img/cut-to-elips.png" alt="">
+            <p>Cut to Elips</p>
+          </li>
+        </div>
+      </div>
+  <div class="swiper-slide">
+    <a class="custom-button-prev"><i class="fa-regular fa-circle-left"></i></a>
+    <h1>Leave your details</h1>
+    <input type="text" placeholder="Your Email:" class="input-email input email-mob req-mob" name="emailMob">
+    <input type="text" class="notes input" placeholder="Your Notes:" name="notesMob">
+    <button class="send" type="submit">Send</button>
+</div>
+  </div>
+</div>
+</form>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/ef20304e16.js" crossorigin="anonymous"></script>
+  <script src="swiper.js"></script>
+  <script src="script.js"></script>
+  <script src="send-form.js"></script>
+  <script src="send-form-mob.js"></script>
+
+</body>
+</html>
